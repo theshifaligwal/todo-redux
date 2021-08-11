@@ -3,7 +3,7 @@ import { ListGroup, ListGroupItem } from "reactstrap";
 import { FaCheckDouble } from "react-icons/fa";
 
 // redux
-import { connect } from "redux";
+import { connect } from "react-redux";
 import { removeTodo } from "../action/todo";
 
 const Todo = ({ todos, markComplete }) => {
